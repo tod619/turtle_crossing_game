@@ -6,6 +6,7 @@ import time
 from turtle import Screen
 from player import Player
 from car_manager import CareManager
+from scoreboard import Scoreboard
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -13,6 +14,7 @@ screen.tracer(0)
 
 player = Player()
 car_manager = CareManager()
+scoreboard = Scoreboard()
 
 # Listen for player input
 screen.listen()
