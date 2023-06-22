@@ -14,7 +14,7 @@ class CareManager:
     def create_car(self):
         new_car = Turtle("square")
         new_car.penup()
-        new_car.shapesize(stretch_wid=2, stretch_len=1)
+        new_car.shapesize(stretch_wid=1, stretch_len=2)
         new_car.color(random.choice(COLORS))
         random_y = random.randint(-250, 250)
         new_car.goto(300, random_y)
@@ -22,4 +22,4 @@ class CareManager:
 
     def move_cars(self):
         for car in self.all_cars:
-            car.backwards(STARTING_MOVE_DISTANCE)
+            car.backward(STARTING_MOVE_DISTANCE)
