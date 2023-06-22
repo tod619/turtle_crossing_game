@@ -1,8 +1,8 @@
 from turtle import Turtle
 
-STARTING_POSITION = (0, -200)
+STARTING_POSITION = (0, -280)
 MOVE_DISTANCE = 10
-FINISH_LINE = 200
+FINISH_LINE = 280
 
 
 class Player(Turtle):
@@ -12,4 +12,4 @@ class Player(Turtle):
         self.shape("turtle")
         self.penup()
         self.goto(STARTING_POSITION)
-        self.heading(90)
+        self.setheading(90)
