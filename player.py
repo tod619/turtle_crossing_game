@@ -1,0 +1,7 @@
+STARTING_POSITION = (0, -200)
+MOVE_DISTANCE = 10
+FINISH_LINE = 200
+
+
+class Player:
+    pass
