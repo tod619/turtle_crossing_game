@@ -13,3 +13,7 @@ class Player(Turtle):
         self.penup()
         self.goto(STARTING_POSITION)
         self.setheading(90)
+
+    def go_up(self):
+        """ Move the player character by the MOVE_DISTANCE"""
+        self.forward(MOVE_DISTANCE)
